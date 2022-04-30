@@ -64,7 +64,7 @@
         app:layout_constraintGuide_percent="0.9" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/unoButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="1"
@@ -75,7 +75,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline12" />
 
     <Button
-        android:id="@+id/button6"
+        android:id="@+id/porButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="#FFC107"
@@ -87,7 +87,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline12" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/cuatroButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="4"
@@ -98,7 +98,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline13" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/cincoButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="5"
@@ -106,21 +106,21 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline14"
         app:layout_constraintEnd_toStartOf="@+id/guideline9"
         app:layout_constraintStart_toStartOf="@+id/guideline8"
-        app:layout_constraintTop_toBottomOf="@+id/button18" />
+        app:layout_constraintTop_toBottomOf="@+id/dosButton" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/sieteButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="7"
         android:textSize="34sp"
-        app:layout_constraintBottom_toTopOf="@+id/button10"
+        app:layout_constraintBottom_toTopOf="@+id/ceroButton"
         app:layout_constraintEnd_toStartOf="@+id/guideline8"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button7" />
+        app:layout_constraintTop_toBottomOf="@+id/cuatroButton" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/ceroButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="0"
@@ -131,7 +131,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline16" />
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/ochoButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="8"
@@ -142,7 +142,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline14" />
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/decimalButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="."
@@ -172,12 +172,12 @@
         android:textSize="34sp"
         app:layout_constraintBottom_toTopOf="@+id/guideline14"
         app:layout_constraintEnd_toStartOf="@+id/guideline10"
-        app:layout_constraintStart_toEndOf="@+id/button8"
-        app:layout_constraintTop_toBottomOf="@+id/button20"
+        app:layout_constraintStart_toEndOf="@+id/cincoButton"
+        app:layout_constraintTop_toBottomOf="@+id/tresButton"
         app:layout_constraintVertical_bias="0.583" />
 
     <Button
-        android:id="@+id/button15"
+        android:id="@+id/nueveButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="9"
@@ -188,7 +188,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline14" />
 
     <Button
-        android:id="@+id/button16"
+        android:id="@+id/menosButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="#FFC107"
@@ -197,10 +197,10 @@
         app:layout_constraintBottom_toTopOf="@+id/guideline14"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/seisButton"
-        app:layout_constraintTop_toBottomOf="@+id/button6" />
+        app:layout_constraintTop_toBottomOf="@+id/porButton" />
 
     <Button
-        android:id="@+id/button17"
+        android:id="@+id/masButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="#FFC107"
@@ -212,7 +212,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline14" />
 
     <Button
-        android:id="@+id/button18"
+        android:id="@+id/dosButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="2"
@@ -223,7 +223,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline12" />
 
     <Button
-        android:id="@+id/button19"
+        android:id="@+id/borrarButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="#2196F3"
@@ -235,7 +235,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline11" />
 
     <Button
-        android:id="@+id/button20"
+        android:id="@+id/tresButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:text="3"
@@ -246,7 +246,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline12" />
 
     <Button
-        android:id="@+id/button21"
+        android:id="@+id/dividirButton"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="#FFC107"
@@ -258,7 +258,7 @@
         app:layout_constraintTop_toTopOf="@+id/guideline11" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/resultadotextView"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginEnd="16dp"
