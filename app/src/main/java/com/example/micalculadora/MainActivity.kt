@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         igualButton.setOnClickListener {
-            var resultado = when(operacion){
+            var resultado: Int = when(operacion){
                 SUMA -> num1+num2
                 RESTA -> num1-num2
                 MULTIPLICACION -> num1*num2
@@ -64,8 +64,12 @@ class MainActivity : AppCompatActivity() {
 
 
     }
-    private fun numeroPresionado(digito: String){
-        resultadoTextView.text = "${resultadoTextView.text}$digito"
+    private fun numeroPresionado(numero: String) {
+        if (resultadoTextView.text == "0") {
+            resultadoTextView.text = "$numero"
+        } else{
+            resultadoTextView.text = "${resultadoTextView.text}$numero"
+        }
 
         if (operacion == NO_OPERACION){
             num1 = resultadoTextView.text.toString().toInt()
@@ -75,8 +79,6 @@ class MainActivity : AppCompatActivity() {
     }
     private fun operacionPrecionanada(operacion: Int) {
         this.operacion = operacion
-
-
 
         resultadoTextView.text = "0"
 
